@@ -1,0 +1,133 @@
+/* Hero section */
+.hero-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background: url(/assets/img/walking.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Blog section */
+.blog {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.blog-container  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.blog-card {
+    height: 100px;
+    width: 45vw;
+    border: 1px black solid;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.card-image {
+    background: url(/assets/img/trecking1.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.card-text {
+    width: 60%;
+    font-size: 0.8em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.blog-button {
+    display: flex;
+    flex-flow: column wrap;    
+}
+
+/* Mission section */
+
+.mission-container {
+    display: flex;
+    flex-flow: row;
+    height: 70vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.mission-image {
+    background: url(/assets/img/forest-mission.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 100%;
+}
+
+.mission-text {
+    width: 50vw;;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About us section */
+
+.about-container {
+    display: flex;
+    flex-flow: row-reverse;
+    height: 70vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.about-image {
+    background: url(/assets/img/team.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 100%;
+}
+
+.about-text {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Miscelanious */
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.s-button {
+    border: 1px black solid;
+}
