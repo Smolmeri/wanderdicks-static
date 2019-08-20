@@ -11,10 +11,10 @@
 
 <body>
     <!-- Navigation -->
-    <div class="nav-container">
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
+    <div class="nav-container" onclick="myFunction()">
+       <div class="bar1"></div>
+       <div class="bar2"></div>
+       <div class="bar3"></div>
     </div>
     <!-- Hero image -->
     <div class="hero-container">
@@ -23,7 +23,7 @@
     </div>
 
     <!-- Blog section -->
-    <section>
+    <section id="blog">
         <h1 class="blog">Our Adventures</h1>
         <div class="blog-container">
             <div class="blog-card">
@@ -63,36 +63,52 @@
                 </div>
             </div>
         </div>
-       
+        <button class="s-button">Test</button>
     </section>
 
     <!-- Mission section -->
-    <div class="mission-container">
-        <div class="mission-image"></div>
-        <div class="mission-text">
-            <h1>Our Mission</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sapiente, illo sunt ex minima ut reprehenderit, ad ipsa ratione ipsam perferendis quis, explicabo sit. Similique accusantium ipsa sint saepe nobis.</p>
+    <section id="mission">
+        <div class="mission-container">
+            <div class="mission-image"></div>
+            <div class="mission-text">
+                <h1>Our Mission</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sapiente, illo sunt ex minima ut
+                    reprehenderit, ad ipsa ratione ipsam perferendis quis, explicabo sit. Similique accusantium ipsa
+                    sint
+                    saepe nobis.</p>
+
+                <button class="s-button">Test</button>
+            </div>
         </div>
-        
-    </div>
+    </section>
+
 
     <!-- About us section -->
-    <div class="about-container">
-        <div class="about-image"></div>
-        <div class="about-text">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi! Repellat deleniti, illum
-                totam beatae alias ex minus magnam exercitationem dolorem quam possimus porro ratione facilis nesciunt
-                deserunt nihil cumque.</p>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image"></div>
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi! Repellat deleniti,
+                    illum
+                    totam beatae alias ex minus magnam exercitationem dolorem quam possimus porro ratione facilis
+                    nesciunt
+                    deserunt nihil cumque.</p>
+
+                    <button class="s-button">Test</button>
+            </div>
         </div>
-    </div>
+    </section>
+
 
     <!-- Footer -->
     <div class="footer-container">
-        &copy;Wanderdicks
-        <a>Instagram</a>
-        <a>Tom Paavolainen Tmi</a>
+        <div>&copy;Wanderdicks</div>
+        <div><a>Instagram</a></div>
+        <div><a>Tom Paavolainen Tmi</a></div>
     </div>
+    
 </body>
 
+<script src="/js/index.js"></script>
 </html>
