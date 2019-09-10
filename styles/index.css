@@ -4,11 +4,12 @@
     display: inline-block;
     cursor: pointer;
     position: fixed;
+    z-index: 99999;
 }
 
 .bar1, .bar2, .bar3 {
     width: 35px;
-    height: 5px;
+    height: 2px;
     background-color: black;
     margin: 6px 0;
     transition: 0.4s;
@@ -34,6 +35,36 @@
     -webkit-transform: rotate(-45deg) translate3d(17px,-18px,0);
     transform: rotate(-45deg) translate3d(17px,-18px,0);
 }
+
+.nav-list {
+    display: flex;
+    flex-flow: column;
+    width: 35%;
+    height: 75%;
+    position: fixed;
+    background-color: black;
+    opacity: .4;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.nav-list  ul{
+    color: white;
+    opacity: 1;
+    list-style: none;
+    height: 50%;
+    font-weight: bold;
+}
+
+.nav-list li {
+    padding: 20px;
+}
+
+.hidden {
+    visibility: visible;
+}
+
 /* Hero section */
 .hero-container {
     padding: 20px;
