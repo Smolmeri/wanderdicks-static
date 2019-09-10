@@ -10,7 +10,7 @@
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 2px;
-    background-color: black;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -21,19 +21,19 @@
 
 .bar1.change {
     display: inline-block;
-    transform: rotate(45deg) translate3d(8.28571px,10px,0);
-    -webkit-transform: rotate(45deg) translate3d(8.28571px,10px,0);
+    transform: rotate(45deg) translate3d(8.28571px, 10px, 0);
+    -webkit-transform: rotate(45deg) translate3d(8.28571px, 10px, 0);
 }
 
-.bar2.change  {
+.bar2.change {
     opacity: 0;
 }
 
 .bar3.change {
     top: 10px;
     display: inline-block;
-    -webkit-transform: rotate(-45deg) translate3d(17px,-18px,0);
-    transform: rotate(-45deg) translate3d(17px,-18px,0);
+    -webkit-transform: rotate(-45deg) translate3d(17px, -18px, 0);
+    transform: rotate(-45deg) translate3d(17px, -18px, 0);
 }
 
 .nav-list {
@@ -49,12 +49,13 @@
     visibility: hidden;
 }
 
-.nav-list  ul{
+.nav-list a {
     color: white;
     opacity: 1;
     list-style: none;
     height: 50%;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav-list li {
@@ -63,4 +64,70 @@
 
 .hidden {
     visibility: visible;
+}
+
+/* Main section */
+
+.mission-container {
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+}
+
+.mission-image {
+    min-width: 50%;
+    background-image: url('../assets/img/planting.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-text-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mission-text {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+/* Miscelanious */
+
+html {
+    max-width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-button {
+    border: 1px black solid;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    width: 72px;
+    height: 56px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    float: right;
+}
+
+.big-header {
+    font-size: 3em;
+}
+
+.medium-header {
+    font-size: 2em;
+}
+
+.small-header {
+    font-size: 1.5em;
 }

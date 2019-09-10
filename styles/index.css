@@ -49,12 +49,13 @@
     visibility: hidden;
 }
 
-.nav-list  ul{
+.nav-list  a {
     color: white;
     opacity: 1;
     list-style: none;
     height: 50%;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav-list li {
@@ -229,4 +230,16 @@ html {
     flex-flow: row wrap;
     justify-content: center;
     float: right;
+}
+
+.big-header {
+    font-size: 3em;
+}
+
+.medium-header {
+    font-size: 2em;
+}
+
+.small-header {
+    font-size: 1.5em;
 }
