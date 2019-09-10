@@ -68,21 +68,21 @@
 
 /* Main section */
 
-.mission-container {
+.adventures-container {
     display: flex;
     flex-flow: row;
     height: 100vh;
 }
 
-.mission-image {
+.adventures-image {
     min-width: 50%;
-    background-image: url('../assets/img/planting.jpg');
+    background-image: url('../assets/img/adventure.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.mission-text-container {
+.adventures-text-container {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -90,12 +90,57 @@
     margin: 20px;
 }
 
-.mission-text {
+.adventures-text {
     width: 50%;
     height: 50%;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+}
+
+/* Blog section */
+
+#blog {
+    margin: 150px 0;
+}
+
+.blog-container  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.blog-card {
+    height: 150px;
+    width: 40vw;
+    border: 1px black solid;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.card-image {
+    background: url(/assets/img/trecking1.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 150px;
+}
+
+.card-text {
+    width: 60%;
+    font-size: 0.8em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-button {
+    display: flex;
+    flex-flow: column wrap;    
 }
 
 /* Miscelanious */
