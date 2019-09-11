@@ -68,13 +68,71 @@
 
 /* Hero section */
 
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
 .hero-container {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
 }
-  
+
+/* Team member cards */
+
+.team-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px 20px;
+    width: 25%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: all .2s ease;
+    height: 60vh;
+}
+
+.card-container {
+    padding: 2px 16px;
+  }
+
+.expand {
+    visibility: hidden;
+}
+
+
+/* Modal  */
+
+.modal-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.modal {
+    margin: 10px 20px;
+    overflow: auto;
+}
+
+
+
 /* Miscelanious */
 
 html {
