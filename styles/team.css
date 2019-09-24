@@ -5,6 +5,7 @@
     cursor: pointer;
     position: fixed;
     z-index: 99999;
+    margin: 10px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -72,18 +73,29 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
+    /* align-items: center; */
+    height: 100vh;
+   
+}
+
+.hero-image {
+    background: url('../assets/img/three.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 75%;
 }
 
 .hero-container {
     display: flex;
     flex-flow: column wrap;
+    margin: 100px 0;
+    height: 50vh;
 }
 
 /* Team member cards */
 
 .team-container {
+    margin: 100px 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -96,11 +108,11 @@
     width: 25%;
 }
 
-.card:hover {
+/* .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: all .2s ease;
     height: 60vh;
-}
+} */
 
 .card-container {
     padding: 2px 16px;
@@ -108,6 +120,18 @@
 
 .expand {
     visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .team-container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .card {
+        width: 75%;
+    }
 }
 
 
@@ -131,6 +155,21 @@
     overflow: auto;
 }
 
+/* Footer */
+
+.footer-container {
+    height: 33vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: solid black 1px;
+}
+
+.column-1, .column-2 {
+    margin: 0 100px;
+}
+
 
 
 /* Miscelanious */
@@ -138,6 +177,12 @@
 html {
     max-width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
 }
 
 .s-button {
@@ -165,4 +210,9 @@ html {
 
 .small-header {
     font-size: 1.5em;
+}
+
+.narrow-paragraph {
+    font-size: 1em;
+    margin: 16px 25%;
 }
