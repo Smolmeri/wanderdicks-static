@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wanderdicks</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body>
@@ -18,6 +19,7 @@
     </div>
 
     <div class="nav-list">
+            <img src="./assets/img/tempLogo.png" alt="asd">
         <ul>
             <a href="./index.html">
                 <li>Home</li>
@@ -29,18 +31,26 @@
                 <li>Blog</li>
             </a>
             <a href="./team.html">
-                <li>About Us</li>
+                <li>Meet the Team</li>
             </a>
         </ul>
     </div>
 
     <!-- Hero image -->
-    <div class="hero-container">
-    <!-- <div class="overlay"></div> -->
+    <div class="hero-container overlay">
         <img src="./assets/img/tempLogo.png" alt="logo">
         <h1 class="big-header">Wanderdicks</h1>
-        <h2>Lorem Ipsum Dipsum</h2>
+        <i class="fas fa-angle-down fa-5x"></i>
     </div>
+
+    <!-- Info section -->
+
+    <section id="info">
+        <div class="info-container">
+                <i class="fas fa-tree fa-9x"></i>
+            <p class="medium-header">We are a group of friends with a passions towards the great outdoors and maintaining it's beauty! Our aim is to plant trees and we also keep a blog of our many adventures.</p> <p class="medium-header">Scroll down to get to know us better!</p>
+        </div>
+    </section>
 
    
 
@@ -48,10 +58,10 @@
     <section id="mission">
         <div class="mission-container">
             
-            <div class="mission-image"></div>
+            <div class="mission-image overlay"></div>
             <div class="mission-text">
                 <h1 class="big-header">Mission</h1>
-                <p class="narrow-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sapiente, illo sunt ex minima ut</p>
+                <p class="narrow-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sapiente, illo sunt ex minima ut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
 
                 <a href="/mission.html"><button class="s-button" style="border: 1px white solid; color: white;">Read More</button></a>
             </div>
@@ -68,7 +78,7 @@
                 <p class="narrow-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi! Repellat deleniti,
                    </p>
 
-               <a href="team.html"><button class="s-button">>></button></a>
+               <a href="team.html"><button class="s-button" >>></button></a>
             </div>
         </div>
     </section>
@@ -107,7 +117,7 @@
                     </div>
                    
             </div>
-            <button class="s-button">Test</button>
+            <a href="adventures.html"><button class="s-button">Read More</button></a>
         </section>
     
 
@@ -118,6 +128,23 @@
             <p>Wanderdics</p>
             <p>email@address.com</p>
         </div>
+        <div class="footer-nav-list">
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./mission.html">
+                    <li>Mission</li>
+                </a>
+                <a href="./adventures.html">
+                    <li>Blog</li>
+                </a>
+                <a href="./team.html">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </div>
+    
         <div class="column-2">
             <p>Design & development: <br>
             <a href="www.github.com/Smolmeri">
@@ -129,6 +156,6 @@
 
 </body>
 
-<script src="./js/index.js"></script>
+<script src="./assets/js/index.js"></script>
 
 </html>
